@@ -1,0 +1,21 @@
+{
+  "name": "http-ws-reversed-proxy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Shuo Yang <shuo.yang.tek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.16.2",
+    "ping": "^0.2.2"
+  },
+  "files": [
+    "server.js",
+    "bin"
+  ],
+  "bin": {
+    "http-ws-rp": "./bin/http-ws-rp.js"
+  }
+}

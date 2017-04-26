@@ -1,0 +1,14 @@
+{
+   "hostname": "10.0.2.15",
+   "port": 8081,
+   "routes": [
+      {
+         "match": "^\/test1(\/.*)?$",
+         "target": "localhost:1111"
+      },
+      {
+         "match": "^\/test2(\/.*)?$",
+         "target": "localhost:1112"
+      }
+   ]
+}
