@@ -9,7 +9,7 @@ const ping = require('ping');
 const configFilename = path.join('/etc/http-ws-rp/config.json');
 const config = JSON.parse( fs.readFileSync(configFilename) );
 
-const retryTimeout = 15000;
+const retryTimeout = config.retryTimeout || 15000;
 const start = Date.now();
 
 const checker = (cb) => {

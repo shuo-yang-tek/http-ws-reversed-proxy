@@ -1,6 +1,6 @@
 {
   "name": "http-ws-reversed-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "server.js",
   "scripts": {
     "test": "node test/test.js"

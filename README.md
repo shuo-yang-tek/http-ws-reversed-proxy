@@ -12,6 +12,7 @@ Config
 {
    "hostname": "192.168.0.150",
    "port": "8120",
+   "retryTimeout": 15000,
    "routes": [
       {
          "match": "^\/test1(\/.*)?$",
@@ -48,4 +49,7 @@ After=network-online.target
 [Service]
 Type=simple
 ExecStart=/usr/bin/http-ws-rp
+
+[Install]
+WantedBy=multi-user.target
 ```

@@ -1,6 +1,7 @@
 {
    "hostname": "10.0.2.15",
    "port": 8081,
+   "retryTimeout": 15000,
    "routes": [
       {
          "match": "^\/test1(\/.*)?$",
