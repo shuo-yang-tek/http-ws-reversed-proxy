@@ -37,7 +37,7 @@ Start manully
 Start via systemd
 ===
 
-* Example: `/etc/systemd/http-ws-rp.service`
+* Example: `/etc/systemd/system/http-ws-rp.service`
 
 ```
 [Unit]
